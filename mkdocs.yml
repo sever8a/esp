@@ -27,29 +27,22 @@ nav:
       - Introducción: "entornos/introduccion.md"
       - IDEs para Python: "entornos/ides.md"
       - Entornos de ejecución: "entornos/entornos.md"
-      - Sistemas de aprendizaje automático. Machine Learning: "ia/modelos/machine.md"
-      - La importancia de los datos: "ia/modelos/datos.md"
+      - Visual Studio Code: "entornos/vscode.md"
   - 2. Entornos de aprendizaje:
-    - Introducción: "entornos-aprendizaje/introduccion.md"
-    - Aprendizaje basico: "entornos-aprendizaje/supervisado.md"
-    - Aprendizaje medio: "entornos-aprendizaje/no-supervisado.md"
-    - Aprendizaje avanzado : "entornos-aprendizaje/refuerzo.md"
-  - 3. Entornos interactivos:
-    - Introducción: "entornos-interactivos/introduccion.md"
-    - Jupyter Notebook: "entornos-interactivos/jupyter.md"
-    - Google Colab: "entornos-interactivos/colab.md"
-    - Visual Studio Code: "entornos-interactivos/vscode.md"
+    - Introducción: "aprendizaje/introduccion.md"
+    - Aprendizaje basico: "aprendizaje/basico.md"
+    - Aprendizaje medio: "aprendizaje/medio.md"
+    - Aprendizaje avanzado : "aprendizaje/avanzado.md"
+  - 3. Entornos cloud:
+    - Introducción: "cloud/introduccion.md"
+    - Jupyter Notebook: "cloud/jupyter.md"
+    - Google Colab: "cloud/colab.md"
+    - SageMaker: "cloud/sagemaker.md"
+    - Kaggle: "cloud/kaggle.md"
   - 4. Entornos dockerizados:
-    - Introducción: "entornos-dockerizados/introduccion.md"
-    - Docker: "entornos-dockerizados/docker.md"
-    - Docker Compose: "entornos-dockerizados/docker-compose.md"
-    - Docker Swarm: "entornos-dockerizados/docker-swarm.md"
-  - 5. Entornos profesionales: 
-    - Introducción: "entornos-profesionales/introduccion.md"
-    - Entornos de desarrollo integrados (IDE): "entornos-profesionales/ides.md"
-    - Control de versiones: "entornos-profesionales/control-versiones.md"
-    - Integración continua y despliegue continuo (CI/CD): "entornos-profesionales/ci-cd.md"
-    - Contenedores y orquestación: "entornos-profesionales/contenedores.md"
+    - Introducción: "docker/introduccion.md"
+    - Docker: "docker/docker.md"
+    - Docker Compose: "docker/compose.md"
 extra:
   search:
     language: "es"
