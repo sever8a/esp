@@ -26,7 +26,6 @@ nav:
     - Introducción: "entornos/introduccion.md"
     - IDEs para Python: "entornos/ides.md"
     - Entornos de ejecución: "entornos/entornos.md"
-    - Visual Studio Code: "entornos/vscode.md"
   - 2. Entornos de aprendizaje:
     - Introducción: "aprendizaje/introduccion.md"
     - Aprendizaje basico: "aprendizaje/basico.md"
@@ -42,6 +41,7 @@ nav:
     - Introducción: "docker/introduccion.md"
     - Docker: "docker/docker.md"
     - Docker Compose: "docker/compose.md"
+    - Visual Studio Code: "entornos/vscode.md"
 extra:
   search:
     language: "es"
