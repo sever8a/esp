@@ -14,7 +14,7 @@ Este sitio ofrece una visión práctica de los entornos y herramientas para desa
 - [Introducción a los entornos de desarrollo](entornos/introduccion.md)
 - [Organización de un entorno Python](entornos/entornos.md)
 - [IDEs y entornos gratuitos](entornos/ides.md)
-- [VS Code con Dev Containers y Docker](entornos/vscode.md)
+- [VS Code con Dev Containers y Docker](docker/vscode.md)
 - [Entornos online y cloud](cloud/introduccion.md)
 - [Google Colab](cloud/colab.md)
 - [AWS SageMaker](cloud/sagemaker.md)
