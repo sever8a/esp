@@ -20,14 +20,13 @@ theme:
 nav:
   - "index.md"
   - 1. Iniciación a Python: 
-    - Introducción a Python: 
-      - Introducción: "introduccion/introduccion.md"
-      - Historia de Python: "introduccion/historia.md"
-    - Entornos de desarrollo:
-      - Introducción: "entornos/introduccion.md"
-      - IDEs para Python: "entornos/ides.md"
-      - Entornos de ejecución: "entornos/entornos.md"
-      - Visual Studio Code: "entornos/vscode.md"
+    - Introducción: "introduccion/introduccion.md"
+    - Historia de Python: "introduccion/historia.md"
+  - 2.Entornos de desarrollo:
+    - Introducción: "entornos/introduccion.md"
+    - IDEs para Python: "entornos/ides.md"
+    - Entornos de ejecución: "entornos/entornos.md"
+    - Visual Studio Code: "entornos/vscode.md"
   - 2. Entornos de aprendizaje:
     - Introducción: "aprendizaje/introduccion.md"
     - Aprendizaje basico: "aprendizaje/basico.md"
