@@ -1,0 +1,1454 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="medio.html">
+      
+      
+        <link rel="next" href="../cloud/introduccion.html">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Aprendizaje avanzado - Entornos de desarrollo y sintaxis de python</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="light-blue" data-md-color-accent="Teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#entornos-virtuales-y-gestion-avanzada-de-dependencias-para-equipos" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../index.html" title="Entornos de desarrollo y sintaxis de python" class="md-header__button md-logo" aria-label="Entornos de desarrollo y sintaxis de python" data-md-component="logo">
+      
+  <img src="../images/favicon.ico" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Entornos de desarrollo y sintaxis de python
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Aprendizaje avanzado
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="Entornos de desarrollo y sintaxis de python" class="md-nav__button md-logo" aria-label="Entornos de desarrollo y sintaxis de python" data-md-component="logo">
+      
+  <img src="../images/favicon.ico" alt="logo">
+
+    </a>
+    Entornos de desarrollo y sintaxis de python
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Apuntes para entornos y sintaxis de Python
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Iniciación a Python
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    1. Iniciación a Python
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduccion/introduccion.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducción
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduccion/historia.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Historia de Python
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.Entornos de desarrollo
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    2.Entornos de desarrollo
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entornos/introduccion.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducción
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entornos/ides.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IDEs para Python
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entornos/entornos.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entornos de ejecución
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. Entornos de aprendizaje
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    2. Entornos de aprendizaje
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="introduccion.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducción
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="basico.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aprendizaje basico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="medio.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aprendizaje medio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aprendizaje avanzado
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="avanzado.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aprendizaje avanzado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#entornos-por-proyecto-y-reproducibilidad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entornos por proyecto y reproducibilidad
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estrategias-de-versionado-y-releases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Estrategias de versionado y releases
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integracion-continua-ci-y-pruebas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integración continua (CI) y pruebas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#control-de-dependencias-y-seguridad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Control de dependencias y seguridad
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entornos-hibridos-y-binarios-nativos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entornos híbridos y binarios nativos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contenedores-como-entorno-de-desarrollo-estandar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contenedores como entorno de desarrollo estándar
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#flujo-de-trabajo-en-equipo-y-politicas-de-codigo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Flujo de trabajo en equipo y políticas de código
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pruebas-moleculas-de-integracion-y-entornos-efimeros" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pruebas, moleculas de integración y entornos efímeros
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gestion-de-versiones-de-codigo-y-despliegue" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gestión de versiones de código y despliegue
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documentacion-y-onboarding" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Documentación y onboarding
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resumen-de-recomendaciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resumen de recomendaciones
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Entornos cloud
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    3. Entornos cloud
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cloud/introduccion.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducción
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cloud/jupyter.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Jupyter Notebook
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cloud/colab.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Google Colab
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cloud/sagemaker.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SageMaker
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cloud/kaggle.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kaggle
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. Entornos dockerizados
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    4. Entornos dockerizados
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docker/introduccion.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducción
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docker/docker.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Docker
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docker/compose.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Docker Compose
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docker/vscode.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visual Studio Code
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#entornos-por-proyecto-y-reproducibilidad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entornos por proyecto y reproducibilidad
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estrategias-de-versionado-y-releases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Estrategias de versionado y releases
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integracion-continua-ci-y-pruebas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integración continua (CI) y pruebas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#control-de-dependencias-y-seguridad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Control de dependencias y seguridad
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entornos-hibridos-y-binarios-nativos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entornos híbridos y binarios nativos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contenedores-como-entorno-de-desarrollo-estandar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contenedores como entorno de desarrollo estándar
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#flujo-de-trabajo-en-equipo-y-politicas-de-codigo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Flujo de trabajo en equipo y políticas de código
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pruebas-moleculas-de-integracion-y-entornos-efimeros" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pruebas, moleculas de integración y entornos efímeros
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gestion-de-versiones-de-codigo-y-despliegue" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gestión de versiones de código y despliegue
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documentacion-y-onboarding" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Documentación y onboarding
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resumen-de-recomendaciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resumen de recomendaciones
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="entornos-virtuales-y-gestion-avanzada-de-dependencias-para-equipos">Entornos virtuales y gestión avanzada de dependencias para equipos<a class="headerlink" href="#entornos-virtuales-y-gestion-avanzada-de-dependencias-para-equipos" title="Permanent link">&para;</a></h1>
+<p>Esta sección cubre prácticas avanzadas para usar entornos virtuales, gestionar librerías y coordinar versiones y código en equipos de desarrollo.</p>
+<h2 id="entornos-por-proyecto-y-reproducibilidad">Entornos por proyecto y reproducibilidad<a class="headerlink" href="#entornos-por-proyecto-y-reproducibilidad" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Mantén un entorno por proyecto (no por máquina) para evitar "works on my machine".</li>
+<li>Prefiere herramientas que generen ficheros de bloqueo (<code>poetry.lock</code>, <code>Pipfile.lock</code>, <code>poetry</code>/<code>pip-tools</code>/<code>pipenv</code>) o <code>requirements.txt</code> generados por <code>pip-compile</code> para fijar versiones transitivas.</li>
+<li>Para máxima reproducibilidad en CI/producción, construye ruedas (<code>.whl</code>) o imágenes de contenedor con las dependencias preinstaladas.</li>
+</ul>
+<p>Ejemplo de flujo reproducible con <code>pip-tools</code>:</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span>pip<span class="w"> </span>install<span class="w"> </span>pip-tools
+<span class="linenos" data-linenos="2 "></span>pip-compile<span class="w"> </span>requirements.in<span class="w">   </span><span class="c1"># genera requirements.txt con dependencias resueltas</span>
+<span class="linenos" data-linenos="3 "></span>pip-sync<span class="w"> </span>requirements.txt<span class="w">     </span><span class="c1"># instala exactamente esas versiones</span>
+</code></pre></div>
+<h2 id="estrategias-de-versionado-y-releases">Estrategias de versionado y releases<a class="headerlink" href="#estrategias-de-versionado-y-releases" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Usa semantic versioning (SemVer) para releases (<code>MAJOR.MINOR.PATCH</code>).</li>
+<li>Automatiza el versionado con herramientas como <code>setuptools_scm</code> o <code>versioneer</code> que extraen la versión de las etiquetas Git.</li>
+<li>Crea releases a partir de ramas protegidas y etiqueta (<code>git tag -a v1.2.3 -m "release v1.2.3"</code>) para que CI genere artefactos (wheels, sdists).</li>
+</ul>
+<h2 id="integracion-continua-ci-y-pruebas">Integración continua (CI) y pruebas<a class="headerlink" href="#integracion-continua-ci-y-pruebas" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Ejecuta en CI la creación del entorno (usar caches de paquetes), instalación de dependencias, linters, pruebas unitarias e integración, y generación de artefactos.</li>
+<li>Caché de dependencias: en GitHub Actions, cachea pip or conda packages y pip wheels para acelerar builds.</li>
+<li>Usa matrices en CI para probar varias versiones de Python/depedencias.</li>
+</ul>
+<p>Ejemplo básico de pasos CI (pseudoyaml):</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Test</span>
+<span class="linenos" data-linenos=" 2 "></span><span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">uses</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">actions/checkout@v4</span>
+<span class="linenos" data-linenos=" 3 "></span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Set up Python</span>
+<span class="linenos" data-linenos=" 4 "></span><span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">uses</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">actions/setup-python@v4</span>
+<span class="linenos" data-linenos=" 5 "></span><span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">with</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="p p-Indicator">{</span><span class="nt">python-version</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;3.10&#39;</span><span class="p p-Indicator">}</span>
+<span class="linenos" data-linenos=" 6 "></span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Install deps</span>
+<span class="linenos" data-linenos=" 7 "></span><span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">run</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="p p-Indicator">|</span>
+<span class="linenos" data-linenos=" 8 "></span><span class="w">        </span><span class="no">pip install pip-tools</span>
+<span class="linenos" data-linenos=" 9 "></span><span class="w">        </span><span class="no">pip-compile requirements.in</span>
+<span class="linenos" data-linenos="10 "></span><span class="w">        </span><span class="no">pip install -r requirements.txt</span>
+<span class="linenos" data-linenos="11 "></span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Run tests</span>
+<span class="linenos" data-linenos="12 "></span><span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">run</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pytest -q</span>
+</code></pre></div>
+<h2 id="control-de-dependencias-y-seguridad">Control de dependencias y seguridad<a class="headerlink" href="#control-de-dependencias-y-seguridad" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Automatiza actualizaciones con herramientas como Dependabot o Renovate; valida cambios en PRs con pruebas automáticas.</li>
+<li>Escanea vulnerabilidades con <code>safety</code>, <code>pip-audit</code> o integraciones SCA en CI.</li>
+<li>Usa <code>constraints.txt</code> para forzar versiones seguras en entornos corporativos.</li>
+</ul>
+<h2 id="entornos-hibridos-y-binarios-nativos">Entornos híbridos y binarios nativos<a class="headerlink" href="#entornos-hibridos-y-binarios-nativos" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Para paquetes con dependencias nativas (librerías en C/Fortran), considera <code>conda</code> o ruedas precompiladas (<code>manylinux</code>/<code>macos</code> wheels) para evitar compilaciones en desarrolladores. Mantén instrucciones de build si es necesario.</li>
+</ul>
+<h2 id="contenedores-como-entorno-de-desarrollo-estandar">Contenedores como entorno de desarrollo estándar<a class="headerlink" href="#contenedores-como-entorno-de-desarrollo-estandar" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Define una imagen base (Dockerfile) con las dependencias del proyecto y usa Dev Containers o reproducibilidad en CI. Esto minimiza diferencias entre entornos locales y producción.</li>
+<li>Publica imágenes de desarrollo en un registry privado con tags por versión (ej. <code>registry.example.com/project:dev</code>, <code>:v1.2.3</code>).</li>
+</ul>
+<h2 id="flujo-de-trabajo-en-equipo-y-politicas-de-codigo">Flujo de trabajo en equipo y políticas de código<a class="headerlink" href="#flujo-de-trabajo-en-equipo-y-politicas-de-codigo" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Rama principal protegida: exige PRs revisados y pruebas verdes antes de merge.</li>
+<li>Pull Requests pequeños y atómicos facilitan revisiones y reducen conflictos.</li>
+<li>Usa <code>pre-commit</code> para formateo (<code>black</code>), comprobaciones de estilo (<code>flake8</code>), y hooks de seguridad antes de crear PRs.</li>
+<li>Definir convenciones de commits (Conventional Commits) facilita generación de changelogs y releases automáticos.</li>
+</ul>
+<p>Ejemplo <code>.pre-commit-config.yaml</code> mínimo:</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="nt">repos</span><span class="p">:</span>
+<span class="linenos" data-linenos="2 "></span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">repo</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://github.com/psf/black</span>
+<span class="linenos" data-linenos="3 "></span><span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">rev</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">24.1.0</span>
+<span class="linenos" data-linenos="4 "></span><span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">hooks</span><span class="p p-Indicator">:</span>
+<span class="linenos" data-linenos="5 "></span><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">black</span>
+<span class="linenos" data-linenos="6 "></span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">repo</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://github.com/pre-commit/mirrors-flake8</span>
+<span class="linenos" data-linenos="7 "></span><span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">rev</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">v6.0.0</span>
+<span class="linenos" data-linenos="8 "></span><span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">hooks</span><span class="p p-Indicator">:</span>
+<span class="linenos" data-linenos="9 "></span><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">flake8</span>
+</code></pre></div>
+<h2 id="pruebas-moleculas-de-integracion-y-entornos-efimeros">Pruebas, moleculas de integración y entornos efímeros<a class="headerlink" href="#pruebas-moleculas-de-integracion-y-entornos-efimeros" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Usa <code>tox</code> o <code>nox</code> para automatizar matrices de pruebas locales y en CI.</li>
+<li>Para integración con bases de datos o servicios externos, levanta servicios efímeros mediante <code>docker-compose</code> en CI o mockea dependencias.</li>
+</ul>
+<h2 id="gestion-de-versiones-de-codigo-y-despliegue">Gestión de versiones de código y despliegue<a class="headerlink" href="#gestion-de-versiones-de-codigo-y-despliegue" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Automatiza builds y despliegues por tag de release en CI; publica paquetes (PyPI, Artifactory) y contenedores.</li>
+<li>Mantén changelogs y notas de release; usa GitHub Releases para adjuntar artefactos.</li>
+</ul>
+<h2 id="documentacion-y-onboarding">Documentación y onboarding<a class="headerlink" href="#documentacion-y-onboarding" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Incluye instrucciones de setup reproducible en <code>CONTRIBUTING.md</code> y scripts <code>make setup</code> o <code>scripts/bootstrap.sh</code> que creen el entorno y preinstalen herramientas de desarrollo.</li>
+<li>Provee un <code>devcontainer</code> o un <code>docker-compose.dev.yml</code> para onboarding rápido.</li>
+</ul>
+<h2 id="resumen-de-recomendaciones">Resumen de recomendaciones<a class="headerlink" href="#resumen-de-recomendaciones" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Fija versiones y usa lockfiles para reproducibilidad.</li>
+<li>Automatiza versiones, pruebas y despliegues en CI.</li>
+<li>Usa contenedores para minimizar diferencias entre desarrolladores y producción.</li>
+<li>Aplica pre-commit, code review y políticas de ramas para mantener calidad del código.</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["header.autohide"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../javascripts/katex.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js"></script>
+      
+    
+  </body>
+</html>
