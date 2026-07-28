@@ -1,0 +1,90 @@
+site_name: Entornos de desarrollo y sintaxis de python
+site_url: ""
+site_dir: ../site
+docs_dir: docs
+use_directory_urls: false
+theme:
+  language: es
+  favicon: images/favicon_iabd.ico
+  name: material
+  palette:
+    primary: light blue
+    accent: "Teal"
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: images/favicon_iabd.ico
+  features:
+    - header.autohide
+
+nav:
+  - "index.md"
+  - 1. Iniciación a Python: 
+    - Introducción a Python: 
+      - Introducción: "introduccion/introduccion.md"
+      - Historia de Python: "introduccion/historia.md"
+    - Entornos de desarrollo:
+      - Introducción: "entornos/introduccion.md"
+      - IDEs para Python: "entornos/ides.md"
+      - Entornos de ejecución: "entornos/entornos.md"
+      - Sistemas de aprendizaje automático. Machine Learning: "ia/modelos/machine.md"
+      - La importancia de los datos: "ia/modelos/datos.md"
+  - 2. Entornos de aprendizaje:
+    - Introducción: "entornos-aprendizaje/introduccion.md"
+    - Aprendizaje basico: "entornos-aprendizaje/supervisado.md"
+    - Aprendizaje medio: "entornos-aprendizaje/no-supervisado.md"
+    - Aprendizaje avanzado : "entornos-aprendizaje/refuerzo.md"
+  - 3. Entornos interactivos:
+    - Introducción: "entornos-interactivos/introduccion.md"
+    - Jupyter Notebook: "entornos-interactivos/jupyter.md"
+    - Google Colab: "entornos-interactivos/colab.md"
+    - Visual Studio Code: "entornos-interactivos/vscode.md"
+  - 4. Entornos dockerizados:
+    - Introducción: "entornos-dockerizados/introduccion.md"
+    - Docker: "entornos-dockerizados/docker.md"
+    - Docker Compose: "entornos-dockerizados/docker-compose.md"
+    - Docker Swarm: "entornos-dockerizados/docker-swarm.md"
+  - 5. Entornos profesionales: 
+    - Introducción: "entornos-profesionales/introduccion.md"
+    - Entornos de desarrollo integrados (IDE): "entornos-profesionales/ides.md"
+    - Control de versiones: "entornos-profesionales/control-versiones.md"
+    - Integración continua y despliegue continuo (CI/CD): "entornos-profesionales/ci-cd.md"
+    - Contenedores y orquestación: "entornos-profesionales/contenedores.md"
+extra:
+  search:
+    language: "es"
+
+plugins: []
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.critic
+  - admonition
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.highlight:
+      linenums: true
+      linenums_style: pymdownx-inline
+  - pymdownx.superfences
+  - footnotes
+  - meta
+  - sane_lists
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+
+extra_javascript:
+  - javascripts/katex.js 
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+ 
