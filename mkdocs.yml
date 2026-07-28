@@ -41,7 +41,7 @@ nav:
     - Introducción: "docker/introduccion.md"
     - Docker: "docker/docker.md"
     - Docker Compose: "docker/compose.md"
-    - Visual Studio Code: "entornos/vscode.md"
+    - Visual Studio Code: "docker/vscode.md"
 extra:
   search:
     language: "es"
