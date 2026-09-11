@@ -27,3 +27,5 @@ Por qué importa esta evolución:
 - **Colaboración:** herramientas modernas facilitan compartir entornos (Dev Containers, Codespaces) y trabajar en equipo sin diferencias de configuración.
 
 En conjunto, la evolución de los entornos de desarrollo con Python ha ido de herramientas sencillas y locales hacia ecosistemas integrados, reproducibles y orientados a la colaboración y la producción a escala.
+
+
