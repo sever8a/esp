@@ -22,6 +22,7 @@ nav:
   - 1. Iniciación a Python: 
     - Introducción: "introduccion/introduccion.md"
     - Historia de Python: "introduccion/historia.md"
+    - "Sintaxis básica de Python": "introduccion/sintaxis.md"
   - 2.Entornos de desarrollo:
     - Introducción: "entornos/introduccion.md"
     - IDEs para Python: "entornos/ides.md"
