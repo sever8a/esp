@@ -110,4 +110,4 @@ python hello.py
 - Usa `docker-compose` cuando necesites servicios adicionales (Postgres, Redis) y referencia `docker-compose.yml` en `devcontainer.json`.
 - Mantén `.devcontainer/` en el repositorio para reproducibilidad del entorno de desarrollo.
 
-¿Quieres que genere un `Dockerfile` y `devcontainer.json` más completos para un proyecto Django o FastAPI como ejemplo? 
+

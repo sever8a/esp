@@ -32,4 +32,4 @@ Breve guía estructurada sobre las principales opciones para ejecutar código Py
 - **Reproducibilidad:** usar entornos (virtualenv, conda, contenedores, `requirements.txt`) para asegurar que el código se ejecute igual en distintos entornos.
 - **Escalabilidad:** elegir entre notebooks para experimentación y servicios gestionados/contenerizados para producción.
 
-¿Quieres que añada ejemplos rápidos de comandos o enlaces a recursos concretos (Colab, SageMaker, Cloud Run)?
+

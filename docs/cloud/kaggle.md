@@ -103,4 +103,4 @@ def rmse(y_true, y_pred):
 - Guía para organizar competiciones (contactar con Kaggle para competiciones Hosted): https://www.kaggle.com/docs/competitions
 - Alternativa open-source para competiciones: CodaLab — https://codalab.lisn.upsaclay.fr/
 
-Si quieres, puedo: añadir una plantilla de `README.md` para organizadores, generar un ejemplo de estructura de datos (`train/` `test/` `baseline/`) o preparar un `notebook` inicial con un baseline simple para incluir en la competición.
+

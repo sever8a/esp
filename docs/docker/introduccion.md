@@ -33,4 +33,4 @@ Esta es una introducción escalonada a Docker, pensada para diferentes perfiles:
 - **Eficiencia:** menor consumo de recursos que VMs completas.
 - **Rapidez:** arranque casi instantáneo de contenedores.
 
-¿Quieres que añada un ejemplo mínimo de `Dockerfile` y `docker-compose.yml` para ver un caso práctico? 
+

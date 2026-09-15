@@ -42,5 +42,6 @@ Recursos y vídeos recomendados (simpáticos y útiles)
 - Corey Schafer (tutoriales claros y amables): https://www.youtube.com/c/Coreyms
 - Real Python (tutoriales prácticos y accesibles): https://www.youtube.com/c/realpython
 
-Conclusión
+# Conclusión
+
 La historia de Python es la de un lenguaje diseñado para la legibilidad y la productividad que, gracias a una comunidad vibrante y un ecosistema en expansión, ha sabido transformarse y adaptarse a nuevas necesidades tecnológicas. Desde scripting y automatización hasta inteligencia artificial y despliegues en la nube, Python sigue expandiendo su alcance mientras mantiene los principios que guiaron su creación.

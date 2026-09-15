@@ -73,4 +73,4 @@ papermill input.ipynb output.ipynb -p parametro1 valor
 - Versiona con `jupytext` (sincroniza `.ipynb` con `.py`) para facilitar revisión por pares.
 - Para producción, extrae lógica en módulos y usa notebooks solo como interfaz de experimentación o reportes.
 
-¿Quieres que cree un notebook de ejemplo con una pequeña exploración de datos (CSV de ejemplo) y pasos comentados? 
+

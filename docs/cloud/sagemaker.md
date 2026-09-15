@@ -24,4 +24,4 @@ Uso con AWS Academy:
 - Consideraciones prácticas: gestionar costes (usar instancias de menor coste o límites temporales), preparar datasets en S3, crear roles IAM con permisos mínimos para estudiantes y usar recursos temporales que se limpien al finalizar las prácticas.
 - Recomendación: para docencia usar cuentas de aula/provisionadas por AWS Academy o créditos controlados; proporcionar notebooks con ejemplos y un pipeline sencillo para que el alumnado experimente sin incurrir en costes inesperados.
 
-¿Quieres que añada un ejemplo mínimo de notebook de inicio o un diagrama de flujo para un pipeline simple en `docs/cloud/sagemaker.md`? 
+
