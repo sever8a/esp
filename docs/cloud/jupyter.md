@@ -36,6 +36,64 @@ Jupyter Notebook es un entorno interactivo basado en web que permite combinar c�
 - **Control de versiones:** los notebooks son JSON; usa `nbdime` para diffs, `jupytext` para sincronizar con scripts `.py` y mantener historial legible en Git.
 - **Despliegue:** exportar resultados o encapsular modelos entrenados en scripts/paquetes para despliegue en servidores o contenedores (Docker).
 
+## Uso de Google Colab y almacenamiento de cuadernos
+
+Google Colab permite crear y ejecutar notebooks desde el navegador, sin instalar Jupyter en el equipo. El código se ejecuta en un entorno alojado por Google y puede usar Python y bibliotecas habituales. Para empezar, accede a [Google Colab](https://colab.research.google.com/) con una cuenta de Google.
+
+### Crear y ejecutar un notebook
+
+Selecciona **Archivo > Nuevo cuaderno** para abrir uno vacío. Cada celda puede contener código o texto en Markdown. Escribe, por ejemplo, este código en una celda y ejecútala con el botón de reproducción o `Mayús+Intro`:
+
+```python
+mensaje = "Hola desde Colab"
+print(mensaje)
+```
+
+La salida aparecerá debajo de la celda. Puedes añadir una celda de texto para explicar el ejemplo y guardar el cuaderno con un nombre reconocible.
+
+### Guardar y abrir cuadernos con Google Drive
+
+Al crear un cuaderno desde Colab, normalmente se guarda en la carpeta **Colab Notebooks** de Google Drive. También puedes abrir un cuaderno existente desde **Archivo > Abrir cuaderno > Google Drive**. Para conservar los cambios, usa **Archivo > Guardar** o `Ctrl+S` (`Cmd+S` en macOS); comprueba que el cuaderno aparece en Drive.
+
+Para acceder a otros archivos guardados en Drive desde el código, monta la unidad:
+
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+```
+
+Sigue el proceso de autorización que muestra Colab. Después, los archivos de Drive estarán disponibles bajo `/content/drive/MyDrive/`. Por ejemplo, para listar una carpeta:
+
+```python
+import os
+
+carpeta = '/content/drive/MyDrive'
+print(os.listdir(carpeta)[:10])
+```
+
+### Usar un cuaderno o documentos locales
+
+Para abrir un notebook `.ipynb` que está en el equipo, selecciona **Archivo > Abrir cuaderno > Subir** y elige el archivo. También puedes crear o descargar una copia desde **Archivo > Descargar > Descargar .ipynb**. Los cambios en una copia subida no actualizan automáticamente el archivo original del equipo; vuelve a descargarla para guardarlos localmente.
+
+Para aportar un documento local a una sesión, puedes seleccionarlo desde el panel **Archivos** de Colab mediante el botón de subir, o usar:
+
+```python
+from google.colab import files
+
+archivos = files.upload()  # Abre un selector de archivos locales
+```
+
+Por ejemplo, si subes `datos.csv`, puedes leerlo con pandas:
+
+```python
+import pandas as pd
+
+datos = pd.read_csv('datos.csv')
+print(datos.head())
+```
+
+Los archivos subidos de esta forma quedan en el entorno temporal de ejecución, no en Drive. Pueden desaparecer al reiniciar o desconectar la sesión; guarda los resultados importantes en Drive o descárgalos. Para leer un documento guardado en Drive, usa su ruta bajo `/content/drive/MyDrive/` en lugar de subirlo de nuevo.
+
 ## Comandos básicos
 
 Instalar Jupyter:
